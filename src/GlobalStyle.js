@@ -44,6 +44,7 @@ export const GlobalStyle = createGlobalStyle`
 
 `
 export const PointColor = 'linear-gradient(135deg, #4568DC 0%, #B06AB3 100%)'
+export const TextColor = '#3b3d40';
 
 export const Wrapper = styled.section`
 
