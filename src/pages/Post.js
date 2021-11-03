@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import PostContainer from '../components/Post/PostContainer';
 
 function Post() {
   return (
-    <div>
-      Post
-    </div>
+    <>
+      <PostContainer/>
+    </>
   )
 }
 

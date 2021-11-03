@@ -1,10 +1,11 @@
 import React from 'react'
+import MypageContainer from '../components/Mypage/MypageContainer'
 
 function Mypage() {
   return (
-    <div>
-      Mypage
-    </div>
+    <>
+      <MypageContainer/>
+    </>
   )
 }
 

@@ -26,6 +26,10 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
   article{
+  box-shadow: rgb(0 0 0 / 10%) 0px 2px 16px 1px;
+  margin : 10px 0;
+  padding : 10px;
+  border-radius: 8px;
     &:hover{
     transform: translateX(10px);
     transition: 0.5s;
@@ -46,14 +50,22 @@ export const GlobalStyle = createGlobalStyle`
 export const PointColor = 'linear-gradient(135deg, #4568DC 0%, #B06AB3 100%)'
 export const TextColor = '#3b3d40';
 
-export const Wrapper = styled.section`
-
+export const Container = styled.section`
+/* height : calc(100vh - 200px); */
+height : 100%;
+`
+export const Wrapper = styled.div`
+width : 100%;
+height : 100%;
+padding : 10% 20%;
+box-sizing: border-box;
 `
 export const Title = styled.h1`
-
+font-size: 30px;
+margin-bottom : 30px; 
 `
-export const SubTitle = styled.p`
-
+export const SubTitle = styled.h3`
+font-size : 24px;
 `
 export const FlexBox = styled.div`
 height : 100%;
