@@ -1,11 +1,11 @@
 import React from 'react'
 
-function footer() {
+function Loading() {
   return (
     <div>
-      footer
+      loading. . .
     </div>
   )
 }
 
-export default footer
+export default Loading
